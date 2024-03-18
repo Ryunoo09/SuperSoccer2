@@ -24,7 +24,7 @@ public class GerakBola : MonoBehaviour
         {
             ResetBall();
             Vector2 arah = new Vector2(2, 0).normalized;
-            rigid.AddForce(arah * force);
+            rigid.AddForce(arah * force );
         }
         else if (coll.gameObject.name == "garisgoalkiri")
         {
@@ -37,7 +37,7 @@ public class GerakBola : MonoBehaviour
             float sudut = (transform.position.y - coll.transform.position.y) * 5f;
             Vector2 arah = new Vector2(rigid.velocity.x, sudut).normalized;
             rigid.velocity = new Vector2(0, 0);
-            rigid.AddForce(arah * force * 2);
+            rigid.AddForce(arah * force * 3);
 
             // Menambah kecepatan bola
             rigid.velocity += arah * force * Time.deltaTime;
@@ -50,3 +50,4 @@ public class GerakBola : MonoBehaviour
         rigid.velocity = Vector2.zero;
     }
 }
+

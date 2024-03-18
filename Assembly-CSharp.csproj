@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\gerakbola.cs" />
+    <Compile Include="Assets\skor.cs" />
     <Compile Include="Assets\PaddleControl.cs" />
   </ItemGroup>
   <ItemGroup>
