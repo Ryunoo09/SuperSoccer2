@@ -56,5 +56,9 @@
         "temp/": true,
         "Temp/": true
     },
+<<<<<<< HEAD
     "dotnet.defaultSolution": "SuperSoccer.sln"
+=======
+    "dotnet.defaultSolution": "SuperSoccer2.sln"
+>>>>>>> 6fdd1a17a02f302437d0cf3ea4366073c3c29a4f
 }

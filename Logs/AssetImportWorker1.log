@@ -1,16 +1,21 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7617 MB
+=======
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 5989 MB
+>>>>>>> 6fdd1a17a02f302437d0cf3ea4366073c3c29a4f
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+G:\2022.3.20f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< HEAD
 C:/Users/rakha/Game Unity/SuperSoccer
 -logFile
 Logs/AssetImportWorker1.log
@@ -18,6 +23,15 @@ Logs/AssetImportWorker1.log
 51884
 Successfully changed project path to: C:/Users/rakha/Game Unity/SuperSoccer
 C:/Users/rakha/Game Unity/SuperSoccer
+=======
+E:/KULIAH/Semester 4/Pemrograman Game/SuperSoccer2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+14325
+Successfully changed project path to: E:/KULIAH/Semester 4/Pemrograman Game/SuperSoccer2
+E:/KULIAH/Semester 4/Pemrograman Game/SuperSoccer2
+>>>>>>> 6fdd1a17a02f302437d0cf3ea4366073c3c29a4f
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +63,7 @@ C:/Users/rakha/Game Unity/SuperSoccer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [20564] Host "[IP] 192.168.21.2 [Port] 0 [Flags] 2 [Guid] 1213560629 [EditorId] 1213560629 [Version] 1048832 [Id] WindowsEditor(7,raka) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [20564] Host "[IP] 192.168.21.2 [Port] 0 [Flags] 2 [Guid] 1213560629 [EditorId] 1213560629 [Version] 1048832 [Id] WindowsEditor(7,raka) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -59,14 +74,27 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/rakha/Game Unity/SuperSoccer/Assets
+=======
+Player connection [22004] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1481495434 [EditorId] 1481495434 [Version] 1048832 [Id] WindowsEditor(7,Raishannan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22004] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1481495434 [EditorId] 1481495434 [Version] 1048832 [Id] WindowsEditor(7,Raishannan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 419.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path G:/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/KULIAH/Semester 4/Pemrograman Game/SuperSoccer2/Assets
+>>>>>>> 6fdd1a17a02f302437d0cf3ea4366073c3c29a4f
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
-    Vendor:   NVIDIA
-    VRAM:     2996 MB
-    Driver:   30.0.15.1278
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     2994 MB
+    Driver:   31.0.12044.56000
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
@@ -84,10 +112,32 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  1.296 seconds
 Domain Reload Profiling: 2203ms
 	BeginReloadAssembly (337ms)
+=======
+Mono path[0] = 'G:/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'G:/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: G:/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: G:/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.054551 seconds.
+- Loaded All Assemblies, in  1.826 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 524 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.453 seconds
+Domain Reload Profiling: 3280ms
+	BeginReloadAssembly (979ms)
+>>>>>>> 6fdd1a17a02f302437d0cf3ea4366073c3c29a4f
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (75ms)
 	RebuildNativeTypeToScriptingClass (20ms)
@@ -113,20 +163,54 @@ Domain Reload Profiling: 2203ms
 			ProcessInitializeOnLoadMethodAttributes (129ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
+=======
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (105ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (143ms)
+	LoadAllAssembliesAndSetupDomain (583ms)
+		LoadAssemblies (911ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (536ms)
+			TypeCache.Refresh (511ms)
+				TypeCache.ScanAssembly (427ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1231ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (808ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (9ms)
+>>>>>>> 6fdd1a17a02f302437d0cf3ea4366073c3c29a4f
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  2.293 seconds
 Refreshing native plugins compatible for Editor in 19.70 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in 13.838 seconds
+Refreshing native plugins compatible for Editor in 84.86 ms, found 4 plugins.
+>>>>>>> 6fdd1a17a02f302437d0cf3ea4366073c3c29a4f
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  2.807 seconds
 Domain Reload Profiling: 5092ms
 	BeginReloadAssembly (485ms)
@@ -168,6 +252,49 @@ Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 70 unused Assets / (244.3 KB). Loaded Objects now: 4493.
 Memory consumption went from 150.4 MB to 150.1 MB.
 Total: 17.612700 ms (FindLiveObjects: 1.592700 ms CreateObjectMapping: 0.868800 ms MarkObjects: 14.164000 ms  DeleteObjects: 0.984300 ms)
+=======
+- Finished resetting the current domain, in  2.273 seconds
+Domain Reload Profiling: 16109ms
+	BeginReloadAssembly (1604ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (283ms)
+	LoadAllAssembliesAndSetupDomain (11878ms)
+		LoadAssemblies (12526ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (781ms)
+			TypeCache.Refresh (691ms)
+				TypeCache.ScanAssembly (573ms)
+			ScanForSourceGeneratedMonoScriptInfo (79ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2274ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1836ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (271ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (1343ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Refreshing native plugins compatible for Editor in 34.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.6 KB). Loaded Objects now: 4493.
+Memory consumption went from 150.2 MB to 150.0 MB.
+Total: 6.687900 ms (FindLiveObjects: 0.635900 ms CreateObjectMapping: 0.428100 ms MarkObjects: 5.092900 ms  DeleteObjects: 0.528700 ms)
+>>>>>>> 6fdd1a17a02f302437d0cf3ea4366073c3c29a4f
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,6 +311,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 Received Import Request.
   Time since last request: 40583.427331 seconds.
   path: Assets/Scenes/Mainmenu.unity
@@ -266,3 +394,76 @@ Received Import Request.
 Start importing Assets/skor.cs using Guid(438124b8586f7f7448f67079a3c2f768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20889bddf2d0c70cf7b838cb643ba825') in 0.008811 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+=======
+Received Import Request.
+  Time since last request: 1286576.783425 seconds.
+  path: Assets/bolafisik.physicsMaterial2D
+  artifactKey: Guid(032b01ccd299bc849a4a35c94133807d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bolafisik.physicsMaterial2D using Guid(032b01ccd299bc849a4a35c94133807d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6601bc66bff35e5dd766bd65e2eef075') in 0.084469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 119.251402 seconds.
+  path: Assets/Bahan/Ellipse 8.png
+  artifactKey: Guid(c9ce1ebca371a2c49b1da9bfc26ef092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bahan/Ellipse 8.png using Guid(c9ce1ebca371a2c49b1da9bfc26ef092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0de1408ac55985dccf9cd51f3175592') in 0.579115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Bahan/Rectangle 19.png
+  artifactKey: Guid(084b31931ecee4049a007a3da13a0a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bahan/Rectangle 19.png using Guid(084b31931ecee4049a007a3da13a0a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3c90c33217f0d1e1ddc3db383c17f3') in 0.210896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Bahan/Rectangle 20.png
+  artifactKey: Guid(8fc5beead552b9e4baee492139ada7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bahan/Rectangle 20.png using Guid(8fc5beead552b9e4baee492139ada7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1823eb873dff5001951c547d05c6e67') in 0.171461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Bahan/Group 3.png
+  artifactKey: Guid(f0499c69e930348478c01d54ce9c8639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bahan/Group 3.png using Guid(f0499c69e930348478c01d54ce9c8639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c896101f083db7b5a4525d23b974347') in 0.112771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Bahan/Subtract (1).png
+  artifactKey: Guid(b26037e9b6038d648803b49ca81ccccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bahan/Subtract (1).png using Guid(b26037e9b6038d648803b49ca81ccccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967ab82bf9a840a68daee8765af9758e') in 0.098706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Bahan/Group 1.png
+  artifactKey: Guid(e18d24b701a0b2c4e9ea228469147b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bahan/Group 1.png using Guid(e18d24b701a0b2c4e9ea228469147b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5bf9b6ec4ae5cd835f23fd4ca4a5c6') in 0.068281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Bahan/Group 6.png
+  artifactKey: Guid(91fca6fdf86d5e64d945fce4b918ddbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bahan/Group 6.png using Guid(91fca6fdf86d5e64d945fce4b918ddbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02df34e03d9b4dd4aa0a78fd90ab648') in 0.060983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Bahan/square-64.png
+  artifactKey: Guid(b7030eab55ce9294da7b7ec6f504bffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bahan/square-64.png using Guid(b7030eab55ce9294da7b7ec6f504bffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1eb3c93ecfe87c383b7625be784f2c') in 0.034396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+>>>>>>> 6fdd1a17a02f302437d0cf3ea4366073c3c29a4f
